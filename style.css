@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    background-color: #124;
+} */
+.welcome{
+    width: 0ch;
+    white-space: nowrap;
+    font-size: 7rem;
+    -webkit-text-stroke: 1px;
+    position: relative;
+    transition: all 1s linear;
+}
+.cursor{
+    width: 3px;
+    height: 10rem;
+}
+.blink{
+    animation: cursor 1s infinite;
+}
+@keyframes cursor{
+    100%{
+        background-color: transparent;
+    }
+}
